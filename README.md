@@ -1,6 +1,6 @@
 
 
-## Combating Fingerprinting with a Privacy Budget
+# **Combating Fingerprinting with a Privacy Budget**
 
 ## Current state of affairs
 
