@@ -32,7 +32,7 @@ budget.
 
 ### Can I try out the privacy budget?
 
-Not yet, as of December 2020 (see [Status](link to status)).
+Not yet, as of December 2020 (see [Status](#whats-the-status-of-the-privacy-budget-what-browsers-support-it)).
 
 ### What will I need to do on my site to adjust to the privacy budget? What about APIs that are so powerful that they will blow through the budget, even if they're not used for tracking?
 
