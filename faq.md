@@ -78,7 +78,7 @@ do to adjust?](#what-will-i-need-to-do-on-my-site-to-adjust-to-the-privacy-budge
 Generally, no, since this may allow sites to knowingly hinder user privacy. However:
 
 - Sites that cannot operate within the budget because they need access to powerful APIs may rely on
-  permissions (link to above).
+  permissions.
 - Browsers may offer mechanisms to prevent third-parties from [spending a site's budget](#can-i-limit-third-parties-and-iframes-from-using-up-my-budget-what-happens-when-a-3p-library-uses-up-my-budget).
 
 ### Will the privacy budget be enforced on localhost? If so can I opt-out? If not, can I opt-in?
@@ -106,7 +106,7 @@ Identifiability of APIs and features will change with time as browser / device e
 populations change. In the long term, browsers will need to periodically adjust the costing strategy
 to keep up, which will in turn require periodic surveys. How and who will do this is not determined
 at this time. Any resulting changes to the costing strategy will be handled in the same way as an
-API change (link to below).
+API change.
 
 ### Will the privacy budget make web APIs less reliable? Will the APIs I'm using be constrained tomorrow even though I'm within the budget today?
 
