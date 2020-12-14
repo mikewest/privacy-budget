@@ -131,8 +131,7 @@ the approach different browser vendors decide to take.
 
 This proposal is at an early stage and exact privacy budget limits are to be determined. But there
 are reasons to think that a privacy budget is feasible: it takes about **32 bits of entropy** to
-uniquely identify people on the web, but mobile web users (which make up most of web users) can only
-expose at most about **13 bits** of entropy.
+uniquely identify people on the web.
 
 About these numbers:
 
@@ -141,11 +140,6 @@ About these numbers:
   log2(4.6 billion) = about 32 bits of entropy to uniquely identify people on the web.
 - Mobile web users make up [most of web
   users](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/).
-- There's an order of 10,000 different mobile device models (estimates range from 4,000 to 60,000+).
-  Devices of the same model have the same fingerprint. So mobile web users can only expose at most
-  log2(10,000) = about 13 bits of entropy. Note that the mobile device population is very unevenly
-  distributed over the thousands of device models, so the entropy of knowing a mobile device model
-  may be significantly lower than 13 bits.
 
 [Read more about
 entropy](https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy).
