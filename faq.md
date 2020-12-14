@@ -47,7 +47,7 @@ identify users. Typically:
 
 - Sites that covertly track users will hit their budget, and they'll need to change.
 - Some applications, such as 3D games or video conferencing, may not be able to run within any
-  reasonable privacy budget. For such applications, there will need to be an "escape valve": a
+  reasonable privacy budget. For such applications, there may need to be an "escape valve": a
   permission prompt informing the user that granting additional API access may allow the site to
   identify them. [Read more](https://github.com/bslassey/privacy-budget#exceptions).
 
