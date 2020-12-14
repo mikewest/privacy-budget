@@ -25,7 +25,7 @@ how to allocate it.
 
 How much budget specific APIs will consume isn't defined yet. Many APIs are expected to consume at
 least some of the privacy budget, but the handful of APIs that are **likely** to consume larger
-amounts of the privacy budget are APIs that access browser settings, APIs that enable to read the
+amounts of the privacy budget are APIs that access browser attributes, APIs that enable to read the
 WebGL render name or mobile phone device name, **and others**. Before the privacy budget is
 enforced, **tooling** should be made available to help you figure out which APIs consume your site's
 budget.
