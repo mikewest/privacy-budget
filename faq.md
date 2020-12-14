@@ -64,14 +64,14 @@ by default, but lets users optionally take advantage of platform-specific featur
 
 The enforcement mechanisms for the privacy budget aren't defined yet. Potential options are to block
 API calls, to noise or uniformize the output of APIs, or to use another enforcement mechanism. This
-decision will be informed by measurements [link to "measure"] that will help to assess the impact of
+decision will be informed by measurements that will help to assess the impact of
 different enforcement mechanisms.
 
 ### What will users see if my site hits the budget limit?
 
 Browsers may consider adding a permission prompt informing the user that they can grant additional
-API access, and that this may allow the site to identify them. See details in [ What will I need to
-do to adjust?](link to above).
+API access, and that this may allow the site to identify them. See details in [What will I need to
+do to adjust?](#what-will-i-need-to-do-on-my-site-to-adjust-to-the-privacy-budget-what-about-apis-that-are-so-powerful-that-they-will-blow-through-the-budget-even-if-theyre-not-used-for-tracking).
 
 ### Will there be a way for my site to opt out?
 
@@ -79,8 +79,7 @@ Generally, no, since this may allow sites to knowingly hinder user privacy. Howe
 
 - Sites that cannot operate within the budget because they need access to powerful APIs may rely on
   permissions (link to above).
-- Browsers may offer mechanisms to prevent third-parties from [spending a site's budget](link to
-  below).
+- Browsers may offer mechanisms to prevent third-parties from [spending a site's budget](#can-i-limit-third-parties-and-iframes-from-using-up-my-budget-what-happens-when-a-3p-library-uses-up-my-budget).
 
 ### Will the privacy budget be enforced on localhost? If so can I opt-out? If not, can I opt-in?
 
