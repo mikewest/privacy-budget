@@ -127,19 +127,6 @@ identifying than previously evaluated.
 This is an open question, and it will need to be publicly established in the future. It depends on
 the approach different browser vendors decide to take.
 
-### Is the privacy budget feasible?
-
-This proposal is at an early stage and exact privacy budget limits are to be determined. But there
-are reasons to think that a privacy budget is feasible: it takes about **32 bits of entropy** to
-uniquely identify people on the web.
-
-About these numbers:
-
-- There are about [4.6 billion of web
-  users](https://www.statista.com/statistics/617136/digital-population-worldwide/). So it takes
-  log2(4.6 billion) = about 32 bits of entropy to uniquely identify people on the web.
-- Mobile web users make up [most of web
-  users](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/).
 
 [Read more about
 entropy](https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy).
