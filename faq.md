@@ -149,3 +149,5 @@ About these numbers:
 
 [Read more about
 entropy](https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy).
+
+FAQ Contributors: [maudnals](https://github.com/maudnals) [jensenpaul](https://github.com/JensenPaul) [asankah](https://github.com/asankah) [rowan-m](https://github.com/rowan-m)
