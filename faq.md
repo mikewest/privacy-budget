@@ -1,6 +1,6 @@
 # FAQ
 
-Do you have a question that's not answered in this FAQ? [Open an
+☝️ Do you have a question that's not answered in this FAQ? [Open an
 issue](https://github.com/bslassey/privacy-budget/issues).
 
 **Disclaimer:** Answers below are subject to substantial change.
@@ -150,4 +150,4 @@ About these numbers:
 [Read more about
 entropy](https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy).
 
-_FAQ Contributors: [maudnals](https://github.com/maudnals), [jensenpaul](https://github.com/JensenPaul), [asankah](https://github.com/asankah), [bslassey](https://github.com/bslassey/privacy-budget), [rowan-m](https://github.com/rowan-m)_
+_FAQ Contributors: [maudnals](https://github.com/maudnals), [jensenpaul](https://github.com/JensenPaul), [asankah](https://github.com/asankah), [bslassey](https://github.com/bslassey/privacy-budget), [rowan-m](https://github.com/rowan-m)._
