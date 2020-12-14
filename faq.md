@@ -32,7 +32,8 @@ budget.
 
 ### Can I try out the privacy budget?
 
-Not yet, as of December 2020 (see [Status](#whats-the-status-of-the-privacy-budget-what-browsers-support-it)).
+Not yet, as of December 2020 (see
+[Status](#whats-the-status-of-the-privacy-budget-what-browsers-support-it)).
 
 ### What will I need to do on my site to adjust to the privacy budget? What about APIs that are so powerful that they will blow through the budget, even if they're not used for tracking?
 
@@ -64,14 +65,15 @@ by default, but lets users optionally take advantage of platform-specific featur
 
 The enforcement mechanisms for the privacy budget aren't defined yet. Potential options are to block
 API calls, to noise or uniformize the output of APIs, or to use another enforcement mechanism. This
-decision will be informed by measurements that will help to assess the impact of
-different enforcement mechanisms.
+decision will be informed by measurements that will help to assess the impact of different
+enforcement mechanisms.
 
 ### What will users see if my site hits the budget limit?
 
 Browsers may consider adding a permission prompt informing the user that they can grant additional
 API access, and that this may allow the site to identify them. See details in [What will I need to
-do to adjust?](#what-will-i-need-to-do-on-my-site-to-adjust-to-the-privacy-budget-what-about-apis-that-are-so-powerful-that-they-will-blow-through-the-budget-even-if-theyre-not-used-for-tracking).
+do to
+adjust?](#what-will-i-need-to-do-on-my-site-to-adjust-to-the-privacy-budget-what-about-apis-that-are-so-powerful-that-they-will-blow-through-the-budget-even-if-theyre-not-used-for-tracking).
 
 ### Will there be a way for my site to opt out?
 
@@ -79,7 +81,8 @@ Generally, no, since this may allow sites to knowingly hinder user privacy. Howe
 
 - Sites that cannot operate within the budget because they need access to powerful APIs may rely on
   permissions.
-- Browsers may offer mechanisms to prevent third-parties from [spending a site's budget](#can-i-limit-third-parties-and-iframes-from-using-up-my-budget-what-happens-when-a-3p-library-uses-up-my-budget).
+- Browsers may offer mechanisms to prevent third-parties from [spending a site's
+  budget](#can-i-limit-third-parties-and-iframes-from-using-up-my-budget-what-happens-when-a-3p-library-uses-up-my-budget).
 
 ### Will the privacy budget be enforced on localhost? If so can I opt-out? If not, can I opt-in?
 
@@ -126,10 +129,10 @@ the approach different browser vendors decide to take.
 
 ### Is the privacy budget feasible?
 
-This proposal is at an early stage and exact privacy budget limits are to be determined. But there are reasons to
-think that a privacy budget is feasible: it takes about **32 bits of entropy** to uniquely identify
-people on the web, but mobile web users (which make up most of web users) can only expose at most
-about **13 bits** of entropy.
+This proposal is at an early stage and exact privacy budget limits are to be determined. But there
+are reasons to think that a privacy budget is feasible: it takes about **32 bits of entropy** to
+uniquely identify people on the web, but mobile web users (which make up most of web users) can only
+expose at most about **13 bits** of entropy.
 
 About these numbers:
 
@@ -144,4 +147,5 @@ About these numbers:
   distributed over the thousands of device models, so the entropy of knowing a mobile device model
   may be significantly lower than 13 bits.
 
-[Read more about entropy](https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy).
+[Read more about
+entropy](https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy).
