@@ -1,4 +1,5 @@
-
+> [!NOTE]
+> The Privacy Budget proposal is no longer active.
 
 # **Combating Fingerprinting with a Privacy Budget**
 
